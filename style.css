@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  font-family: 'Gugi', cursive;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+input {
+  margin-top: 10px;
+  height: 35px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 40px;
+  background-color: grey;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    -webkit-animation-name: roBro;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1000;
+    animation-name: roBro;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1000;
+    animation-play-state: paused;
+}
+
+@keyframes roBro {
+    0%   {top:0px;}
+    50%  {top:15px;}
+    100% {top:0px;}
+}
+
+#input {
+  margin: 50px 0 75px 0;
+}
+
+#submit {
+  margin-top: 10px;
+  height: 35px;
+  width: 200px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
+
+#submit:hover {
+  cursor: pointer;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+}
